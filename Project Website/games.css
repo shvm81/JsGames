@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+li,
+a {
+    font-family: "Konkhmer Sleokchher", Calibri;
+    font-size: 25px;
+    color: #90c749;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-pages {
+    display: flex;
+    justify-content: space-around;
+    padding: 27px 5%;
+    list-style: none;
+}
+
+.nav-page li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-pages li a {
+    transition: color 0.5s;
+}
+
+li a:hover {
+    transform: translateY(-10px);
+    color: rgb(238, 237, 237);
+}
+
+.ruck {
+    color: rgb(37, 99, 14);
+    font-family: Calibri;
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.heading {
+    color: #90c749;
+    font-size: 40px;
+    font-family: Konkhmer Sleokchher;
+    text-align: center;
+}
+
+.heading1 {
+    color: white;
+    font-size: 25px;
+    font-family: Calibri;
+    text-align: center;
+}
+
+
+.image {
+    width: 500px;
+    height: 350px;
+}
+
+.games {
+    color: white;
+    font-size: 75px;
+    font-family: Konkhmer Sleokchher;
+    text-align: center;
+    animation: slideInLeft 3s ease;
+}
+
+.container {
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-700px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #030303;
+}
+
+li,
+a {
+    font-family: "Konkhmer Sleokchher", Calibri;
+    font-size: 25px;
+    color: #90c749;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-pages {
+    display: flex;
+    justify-content: space-around;
+    padding: 27px 5%;
+    list-style: none;
+}
+
+.nav-page li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-pages li a {
+    transition: color 0.5s;
+}
+
+li a:hover {
+    transform: translateY(-10px);
+    color: rgb(238, 237, 237);
+}
+
+.journey {
+    color: white;
+    font-size: 75px;
+    font-family: Konkhmer Sleokchher;
+    animation: slideInLeft 5s ease;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-1200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.image1 {
+    width: 482px;
+    height: 279px;
+}
+
+.image2 {
+    width: 482px;
+    height: 279px;
+}
+
+.image3 {
+    width: 482px;
+    height: 279px;
+}
+
+.imgs {
+    font-family: Konkhmer Sleokchher;
+    color: rgb(37, 99, 14);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vw;
+    margin-left: 13vw;
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 {
+    display: flex;
+    color: white;
+    font-family: Calibri;
+}
+
+.container2 {
+    display: flex;
+    color: white;
+    font-family: Calibri;
+}
+
+.container3 {
+    display: flex;
+    color: white;
+    font-family: Calibri;
+}
+
+.containermax {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+    margin-right: 3%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 18px;
+}

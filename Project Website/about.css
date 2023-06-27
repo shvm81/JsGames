@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #030303;
+}
+
+li,
+a {
+    font-family: "Konkhmer Sleokchher", Calibri;
+    font-size: 25px;
+    color: #90c749;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-pages {
+    display: flex;
+    justify-content: space-around;
+    padding: 27px 5%;
+    list-style: none;
+}
+
+.nav-page li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-pages li a {
+    transition: color 0.5s;
+}
+
+li a:hover {
+    transform: translateY(-10px);
+    color: rgb(238, 237, 237);
+}
+
+.about {
+    color: white;
+    font-size: 75px;
+    font-family: Konkhmer Sleokchher;
+    display: flex;
+    justify-content: center;
+    animation: slideInLeft 3s ease;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-700px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+.text {
+    color: #90c749;
+    font-family: Konkhmer Sleokchher;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+
+.question {
+    float: right;
+    margin-right: 2%;
+    margin-top: 4.2%;
+}
+
+.question1 {
+    float: left;
+    margin-left: 2%;
+    margin-top: 4.2%;
+}
